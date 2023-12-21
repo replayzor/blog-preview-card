@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+section {
+	box-shadow: 10px 10px black;
+}
+
+section:hover {
+	box-shadow: 15px 15px black;
+	transition: box-shadow 0.3s ease-in-out;
+}
